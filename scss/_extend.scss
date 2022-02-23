@@ -1,0 +1,30 @@
+.boton {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+
+    &:hover {
+        filter: opacity(95%);
+    }
+}
+
+.botonVerde {
+    @extend .boton;
+    background-color: green;
+}
+.botonVioleta {
+    @extend .boton;
+    background-color: blueviolet;
+}
+.botonNaranja {
+    @extend .boton;
+    background-color: orange;
+}
+.botonVerdecito {
+    @extend .boton;
+    background-color: lightgreen;
+}
+.botonCeleste {
+    @extend .boton;
+    background-color: lightblue;
+}

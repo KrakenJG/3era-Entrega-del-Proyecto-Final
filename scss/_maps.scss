@@ -1,0 +1,12 @@
+$botonesHeader : (
+    login: rgb(7, 160, 7),
+    register: rgb(52, 52, 131),
+);
+
+.login {
+    background-color: map-get($map: $botonesHeader, $key: login);
+}
+
+.register {
+    background-color: map-get($map: $botonesHeader, $key: register);
+}

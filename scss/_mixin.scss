@@ -1,0 +1,16 @@
+@mixin fontSize($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
+
+.fontL {
+    @include fontSize(2rem, 700)
+}
+
+.fontM {
+    @include fontSize(1.5rem, 500)
+}
+
+.fontS {
+    @include fontSize(1rem, 100)
+}
